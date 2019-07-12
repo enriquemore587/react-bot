@@ -1,0 +1,61 @@
+/* html, body {
+    margin: 0;
+    height: 100vh;
+    width: 100vw; 
+}
+*/
+.card {
+    margin: 0;
+    height: 600;
+    max-width: 500px;
+}
+
+.col .row {
+    margin: 0;
+}
+
+#bot {
+    position: absolute;
+    min-width: 500px;
+    top: 0;
+    left: 0;
+}
+
+.row {
+    margin-bottom: 0;
+}
+
+.btn-opt {
+    width: 100%;
+    text-align: center;
+}
+
+.chat {
+    height: 600px;
+    width: 500px;
+    position: relative;
+}
+
+.chat-head {
+    position: absolute;
+    top: 0;
+    height: 50px;
+    width: 500px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.chat-body {
+    position: absolute;
+    bottom: 50px;
+    height: 500px;
+    width: 500px;
+    overflow-x: hidden;
+}
+
+.chat-footer {
+    position: absolute;
+    bottom: 0;
+    height: 50px;
+    width: 500px;
+}
